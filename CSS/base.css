@@ -1,0 +1,47 @@
+/* reset css */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-size: 14px;
+    color: #333333;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    resize: none;
+    -webkit-appearance: none;
+}
+
+/* common css */
+.f_l {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+}
